@@ -18,7 +18,7 @@
 
 	$api = new Nodequery;
 	//设置Nodequery API
-	$data = $api->ListServer("xxxxxx");
+	$data = $api->ListServer("9CRp8VVRBRp8uixVzIcOhpQPNt67H3TARIFlr7YYcuW9EXhH");
 	$data = json_decode($data);
 	$status = $data->status;
 	//$data = json_decode($data->data[0]);
